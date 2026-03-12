@@ -1,6 +1,9 @@
 import project1 from '../assets/icons/newblogProject.png'
 import project2 from '../assets/icons/mentalProject.png'
-
+import project3 from '../assets/icons/quiz-game.png'
+import project4 from '../assets/icons/expense-tracker.png'
+import project5 from '../assets/icons/drag-drop.png'
+import project6 from '../assets/icons/color-palette-generator.png'
 const ProjectCard = ({ title, img, description, href }) => {
     return (
         <article className='relative max-w-sm bg-gray-800 overflow-hidden shadow-lg'>
@@ -41,17 +44,31 @@ const Projects = () => {
         },
         {
             id: 3,
-            img: project1,
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, odit!',
+            img: project3,
+            description: 'Quiz app with a user interface and user interaction for taking quizzes.',
             title: 'project 3',
-            href: '#'
+            href: 'https://quiz-tawny-rho-33.vercel.app/'
         },
         {
             id: 4,
-            img: project1,
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, odit!',
+            img: project4,
+            description: 'Expense tracker with a user interface and user interaction for managing expenses.',
             title: 'project 4',
-            href: '#'
+            href: 'https://expense-tracker-murex-nine-21.vercel.app/'
+        },
+        {
+            id: 5,
+            img: project5,
+            description: 'Drag and drop app with a user interface and user interaction for dragging and dropping items.',
+            title: 'project 5',
+            href: 'https://drag-and-drop-pi.vercel.app/'
+        },
+        {
+            id: 6,
+            img: project6,
+            description: 'Color palette generator with a user interface and user interaction for creating color palettes.',
+            title: 'project 6',
+            href: 'https://color-palette-generator-vert-seven.vercel.app/'
         },
     ]
     return (
