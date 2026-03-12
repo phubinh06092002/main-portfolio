@@ -4,6 +4,7 @@ import imgavatar from '../assets/icons/avarta.jpeg'
 import instagram from '../assets/icons/Instagram_icon.png'
 import facebook from '../assets/icons/Facebook_Logo.png'
 import github from '../assets/icons/github-icon.png'
+import cv from '../assets/icons/myCV.png'
 
 const Hero = () => {
     return (
@@ -42,7 +43,7 @@ const Hero = () => {
                             <img src={instagram} alt="instagram" className='w-11 h-11' />
                         </a>
                     </div>
-                    <a href="#" download>
+                    <a href={cv} download>
                         <button className='inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-[#801b9c] hover:shadow-[0_0_40px_#800080b3] rounded-full text-lg'>
                             Download CV
                         </button>
