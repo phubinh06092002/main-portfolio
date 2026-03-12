@@ -61,7 +61,7 @@ const Projects = () => {
             img: project5,
             description: 'Drag and drop app with a user interface and user interaction for dragging and dropping items.',
             title: 'project 5',
-            href: 'https://drag-and-drop-pi.vercel.app/'
+            href: 'https://drap-and-drop-pi.vercel.app/'
         },
         {
             id: 6,
